@@ -12,4 +12,4 @@ use of scripts for coding conveniently！！！
 
 | name | description | remark |
 |-------|-------|-------|
-| [backup_github.sh](backup_github.sh)  | backup to github | need to install git, rsync, ssh |
+| [backup_github.sh](backup/backup_github.sh)  | backup directory to github | need to install git, rsync, ssh |
