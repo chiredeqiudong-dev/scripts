@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 :: 设置Git仓库路径（根据实际情况修改）
-set REPO_PATH=F:\GitRepo\GitHub\xxxxx
+set REPO_PATH=F:\GitRepository\GitHub\scripts
 
 :: 确保仓库目录正确
 if not exist "%REPO_PATH%\.git" (
