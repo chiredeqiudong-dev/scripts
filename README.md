@@ -14,3 +14,4 @@ use of scripts for coding conveniently！！！
 |-------|-------|-------|
 | [backup_github.sh](backup/backup_github.sh)  | backup directory to github | need to install git, rsync, ssh |
 | [auto_push.bat](task/auto_push.bat)  | auto git push repo| initialize the git repo, add the remote repo（ssh）|
+| [backup_github_sqlite3.sh](backup/backup_github_sqlite3.sh)  | sync sqlite database and others file| need to install git,sqlite3 |
