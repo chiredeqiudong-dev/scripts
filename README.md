@@ -12,6 +12,7 @@ use of scripts for coding conveniently！！！
 
 | name | description | remark |
 |-------|-------|-------|
-| [backup_github.sh](backup/backup_github.sh)  | backup directory to github | need to install git, rsync, ssh |
+| [backup_github.sh](backup/backup_github.sh)  | backup directory to github | need to install git,rsync,ssh |
 | [auto_push.bat](task/auto_push.bat)  | auto git push repo| initialize the git repo, add the remote repo（ssh）|
 | [backup_github_sqlite3.sh](backup/backup_github_sqlite3.sh)  | sync sqlite database and others file| need to install git,sqlite3 |
+| [auto_certbot_ssl.sh](task/auto_certbot_ssl.sh.sh)  | auto ssl with certbot | need to install certbot |
