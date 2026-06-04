@@ -50,7 +50,7 @@ for cert_dir in $certs_directory*; do
         ip6tables -F
 
         # 续签证书
-        certbot certonly --standalone -d $domain --email turingzy@email.cn --agree-tos --no-eff-email --force-renewal
+        certbot certonly --standalone -d $domain --email your-email@example.com --agree-tos --no-eff-email --force-renewal
 
         # 启动 Nginx
         systemctl start nginx
