@@ -1,15 +1,23 @@
 # scripts
 
-日常实用脚本集合，用于定时任务和文件处理等。
+日常实用脚本集合，用于备份、定时任务和文件处理等。
 
 ## 目录结构
 
 | 目录 | 说明 |
 |------|------|
+| `backup/` | 备份相关脚本 |
 | `task/` | 定时任务与自动化脚本 |
 | `tool/` | 实用工具脚本 |
 
 ## 脚本列表
+
+### backup — 备份
+
+| 名称 | 描述 |
+|------|------|
+| [full_backup_servers.sh](backup/full_backup_servers.sh) | 通过 SSH 连接云服务器，tar 压缩指定目录，scp 拉取到本地，清理远程临时文件，支持多服务器配置 |
+| [incremental_sync_servers.sh](backup/incremental_sync_servers.sh) | 通过 SSH + rsync 增量同步云服务器指定目录到本地，仅传输变化文件，支持排除规则和断点续传 |
 
 ### task — 定时任务
 
